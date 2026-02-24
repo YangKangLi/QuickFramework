@@ -3,6 +3,7 @@ package com.yangkl.quick.library.base
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.blankj.utilcode.util.ToastUtils
+import com.yangkl.quick.library.extenssion.showCenter
 
 open class QuickFragment : Fragment() {
 

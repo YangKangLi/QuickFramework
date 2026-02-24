@@ -14,6 +14,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.blankj.utilcode.util.BarUtils
 import com.blankj.utilcode.util.KeyboardUtils
 import com.blankj.utilcode.util.ToastUtils
+import com.yangkl.quick.library.dialog.QuickWaitDialog
+import com.yangkl.quick.library.extenssion.showCenter
 
 open class QuickActivity : AppCompatActivity() {
 
