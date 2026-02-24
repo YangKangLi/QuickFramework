@@ -43,4 +43,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    //noinspection UseTomlInstead
+    implementation("com.github.YangKangLi:QuickFramework:1.0.0")
 }

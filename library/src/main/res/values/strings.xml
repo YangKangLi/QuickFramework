@@ -1,0 +1,13 @@
+<resources>
+    <string name="friendly_message_for_connect_exception">连接服务器</string>
+    <string name="friendly_message_for_timeout_exception">连接服务器超时</string>
+    <string name="friendly_message_for_socket_timeout_exception">连接服务器超时</string>
+    <string name="friendly_message_for_null_pointer_exception">空指针</string>
+    <string name="friendly_message_for_illegal_argument_exception">非法参数</string>
+    <string name="friendly_message_for_illegal_state_exception">状态异常</string>
+    <string name="friendly_message_for_security_exception">缺少必要的权限</string>
+
+    <string name="dialog_default_positive_text">确定</string>
+    <string name="dialog_default_negative_text">取消</string>
+    <string name="dialog_default_wait_text">请稍等</string>
+</resources>
