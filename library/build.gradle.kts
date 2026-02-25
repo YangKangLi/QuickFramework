@@ -48,7 +48,7 @@ dependencies {
 }
 
 group = "com.github.yangkangli"
-version = "1.1"
+version = "1.2"
 afterEvaluate {
     publishing {
         publications {
