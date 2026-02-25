@@ -9,7 +9,7 @@ import com.kongzue.dialogx.interfaces.OnBindView
 abstract class QuickBaseDialog(layoutResId: Int, protected val clickListener: OnClickListener? = null) {
 
     interface OnClickListener {
-        fun onClick(data: Bundle? = null)
+        fun onClick(dialog: QuickBaseDialog, isPositive: Boolean, data: Bundle? = null)
     }
 
     private val customDialog = CustomDialog.build(object : OnBindView<CustomDialog>(layoutResId) {

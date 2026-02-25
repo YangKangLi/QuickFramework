@@ -12,8 +12,7 @@ class QuickAlertDialog(private val title: String, private val content: String? =
             findViewById<TextView>(R.id.tv_dialog_content).text = content
 
             findViewById<View>(R.id.btn_dialog_positive)?.setOnClickListener {
-                dismiss()
-                clickListener?.onClick()
+                clickListener?.onClick(this@QuickAlertDialog, true)
             }
         }
     }
